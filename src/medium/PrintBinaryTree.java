@@ -13,7 +13,7 @@ import java.util.List;
 public class PrintBinaryTree {
     public List<List<String>> printTree(TreeNode root) {
         List<List<String>> re = new ArrayList<>();
-
+return null;
     }
 
     private void helper(TreeNode root, List<List<String>> re, int index, int level){
