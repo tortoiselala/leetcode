@@ -11,7 +11,7 @@ public class SearchinRotatedSortedArrayTest {
 
     @Test
     public void search() {
-        System.out.println(new SearchinRotatedSortedArray().search(new int[]{1, 3}, 0));
+        System.out.println(new SearchinRotatedSortedArray().search(new int[]{4, 5, 6, 7, 0, 1, 2}, 0));
 
     }
 
