@@ -10,13 +10,13 @@ public class MaximumSubarray {
             return 0;
         }
         int[] result = Arrays.copyOf(nums, nums.length);
-        result[0] = nums[0];
+        int max = 0;
+        max = result[0];
         for(int i = 1; i < nums.length; ++i){
-                for(int j = i - 1; j >= 0; --j){
-                result[i] = Integer.max(nums[i], nums[i] + result[j]);
-            }
+            result[i] = Integer.max(result[i], nums[i] + result[i - 1]);
+            max = Math.max(result[i], max);
         }
-        return result[nums.length - 1];
+        return max;
     }
 
     public static void main(String[] args) {
