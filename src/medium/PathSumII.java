@@ -14,7 +14,7 @@ public class PathSumII {
         if(root == null){
             return re;
         }
-        dfs(root, sum, 0, new LinkedList<>());
+        dfs(root, sum, 0, new LinkedList<Integer>());
         return re;
     }
 
