@@ -49,9 +49,6 @@ public class Main {
                 nextMoney = 100;                index = 4;
 
                 break;
-            case 100:
-                nextMoney = -1;
-                break;
             default:
                 nextMoney = -1;
         }

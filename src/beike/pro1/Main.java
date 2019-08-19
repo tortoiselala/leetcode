@@ -1,6 +1,8 @@
 package beike.pro1;
 
 import java.util.Scanner;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.Semaphore;
 
 /**
  * @author tortoiselala
